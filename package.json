@@ -1,6 +1,6 @@
 {
   "name": "willburg.email",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "willburg": "git+https://github.com/kildevaeld/willburg.git",
-    "willburg.sequelize": "git+https://github.com/kildevaeld/willburg.sequelize.git"
+    "willburg": "github:kildevaeld/willburg#v0.3.1",
+    "willburg.sequelize": "github:kildevaeld/willburg.sequelize#v0.2.2"
   },
   "peerDependencies": {
-    "willburg": "git+https://github.com/kildevaeld/willburg.git",
-    "willburg.sequelize": "git+https://github.com/kildevaeld/willburg.sequelize.git"
+    "willburg": "github:kildevaeld/willburg#v0.3.1",
+    "willburg.sequelize": "github:kildevaeld/willburg.sequelize#v0.2.2"
   },
   "dependencies": {
     "debug": "^2.2.0",
